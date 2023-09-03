@@ -6,14 +6,14 @@
         <th>description</th>
         <th>price</th>
         <th>Category ID</th>
-        <th >Action</th>
+        <th>Action</th>
     </tr>
     @foreach ($products as $product)
     <tr>
         <td>{{ $product->name }}</td>
         <td>{{ $product->description }}</td>
         <td>{{ $product->price }}</td>
-        <td>{{ $product-> caterogy_id }}</td>
+        <td>{{ $product->caterogy_id }}</td>
         <td>
             <form action="{{ route('products.destroy',$product->id) }}" method="POST">
                 <a href="{{ route('products.show', $product->id) }}">Show</a>
