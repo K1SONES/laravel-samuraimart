@@ -2,7 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ProductController;
-use App\Htto\Controllers\ReviewController;
+use App\Http\Controllers\ReviewController;
 
 /*
 |--------------------------------------------------------------------------
