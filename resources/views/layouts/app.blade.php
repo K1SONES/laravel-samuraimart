@@ -15,7 +15,8 @@
 
     <!-- Scripts -->
     @vite(['resources/sass/app.scss', 'resources/js/app.js'])
-
+    <script src="https://kit.fontawesome.com/f6df828d56.js" crossorigin="anonymous"></script>
+    
     <!-- Styles -->
     <link href="{{ asset('css/samuraimart.css') }}" rel="stylesheet">
 </head>
