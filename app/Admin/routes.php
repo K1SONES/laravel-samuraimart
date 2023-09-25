@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Routing\Router;
-use App\Admin\Controller\CategoryController;
+use App\Admin\Controllers\CategoryController;
 
 Admin::routes();
 
